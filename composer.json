@@ -1,0 +1,26 @@
+{
+    "name": "amirjavadikia/contact",
+    "description": "This is package that contain a contact form and this package will send email to admin and save the contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Amirjavadikia\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amirjavadikia",
+            "email": "amir.m.javadikia@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amirjavadikia\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
