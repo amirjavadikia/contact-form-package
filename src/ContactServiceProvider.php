@@ -17,8 +17,8 @@ class ContactServiceProvider extends ServiceProvider
             // Views
             __DIR__ . '/resources/views' => resource_path('views/vendor/contact'),
             // Assets
-            __DIR__.'/resources/js' => public_path('vendor/contact/js'),
-            __DIR__.'/resources/css' => public_path('vendor/contact/css'),
+            __DIR__.'/resources/js' => public_path('vendor/package-name/js'),
+            __DIR__.'/resources/css' => public_path('vendor/package-name/css'),
         ]);
 
     }
