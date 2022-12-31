@@ -15,7 +15,7 @@
         @csrf
         <input type="text" class="form-control my-3" name="name" placeholder="your name">
         <input type="email" class="form-control my-3" name="email" placeholder="your email">
-        <textarea name="message"  class="form-control my-3"  cols="30" rows="10" placeholder="your message"></textarea>
+        <textarea name="message"  class="form-control my-3 "  cols="30" rows="10" placeholder="your message"></textarea>
         <input type="submit" class="btn btn-success my-3" value="submit">
     </form>
 
