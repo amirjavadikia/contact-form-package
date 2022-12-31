@@ -11,11 +11,11 @@
 <body>
     <h1>contact us page</h1>
 
-    <form action="{{ route('contact') }}" method="post">
+    <form action="{{ route('contact') }}"  class="my-3 container"  method="post">
         @csrf
-        <input type="text" name="name" placeholder="your name">
-        <input type="email" name="email" placeholder="your email">
-        <textarea name="message" cols="30" rows="10" placeholder="your message"></textarea>
+        <input type="text" class="form-control" name="name" placeholder="your name">
+        <input type="email" class="form-control" name="email" placeholder="your email">
+        <textarea name="message"  class="form-control"  cols="30" rows="10" placeholder="your message"></textarea>
         <input type="submit" class="btn btn-success" value="submit">
     </form>
 
